@@ -1,0 +1,306 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header, .footer{
+    background-color: rgb(185, 13, 116);
+    display: inline-flex;
+    min-width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 12vh;
+    color: white;
+}
+header h1{
+    color: rgb(221, 200, 224);
+    font-weight: 700;
+}
+.navigation{
+    background-color: rgb(211, 69, 154);
+    display: inline-flex;
+    min-width: 100%;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    height: 6vh;
+    color: white;
+}
+.nav{
+    min-height: 6vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100%;
+}
+.nav-items{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin: none;
+    height: 100%;
+}
+.nav-items li{
+    width: 20%;
+    align-content: center;
+    height: 100%;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: all 0.5s;
+}
+.nav-items li:hover{
+    background-color: rgb(232, 191, 217);
+    color: black;
+    border-radius: 10px;
+    font-size: 2rem;
+}
+header button,.MeetBeat button, .prdItem button{
+    border: none;
+    cursor: pointer;
+    background-color: rgb(185, 13, 116);
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+}
+.search input{
+    min-width: 100%;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    size: 40%;
+}
+.search{
+    min-width: 40%;
+}
+.MeetBeat{
+    min-width: 40vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    margin-top: 5rem;
+    min-height: 40vh;
+}
+.MeetBeat-item{
+    height: 100%;
+    width: 50%;
+    font-size: 3rem;
+}
+.MeetBeat img{
+    height: 100%;
+    width: 40%;
+}
+.MeetBeat button{
+    margin-top: 2rem;
+    align-self: center;
+}
+.deals{
+    min-height: 90vh;
+    align-content: center;
+    gap:4rem;
+    margin-bottom: 2rem;
+}
+.deal{
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 2rem;
+    margin-top: 2rem;
+}
+.deal h1{
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 3rem;
+}
+.product{
+    width: 100%;
+    display: block;
+    justify-content: space-around;
+    align-items:start;
+    align-content: center;
+    border-width: 2;
+    border-radius: 10px;
+    align-content: center;
+    background-color: rgb(236, 167, 224);
+    text-align: center;
+}
+.product img{
+    height: 60%;
+    width: 80%;
+}
+.news{
+    width: 30%;
+    border-style: solid;
+    margin-right:2rem;
+}
+.news h1{
+    width: 30%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+}
+.news ul{
+    font-size: 2rem;
+    list-style-position: inside;
+    padding: 1rem;
+}
+.news li{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+/* prdouct block */
+
+.productsBlock{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 1rem;
+    height: 100%;
+}
+.product h4{
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+.product p{
+    font-size: 1.5rem;
+    padding: 1rem 1rem;
+}
+.oldPrice{
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+.category{
+    width: 100%;
+}
+.prdCategory{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    max-width: 100% ;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.prdItem{
+    width: 23%;
+    display: block;
+    box-shadow: 0 4px 8px 0 rgb(179, 177, 177);
+    align-content: center;
+    text-align: center;
+    padding: 1rem;
+}
+.prdItem img{
+    width: 90%;
+    height: 33vh;
+    margin-bottom: 0.85rem;
+}
+.prdItem p{
+    margin: 1rem;
+    font-size: 1rem;
+    height: 10vh;
+    overflow-y: scroll;
+}
+.prdItem h4{
+    font-size: 1.5rem;
+}
+.footer ul{
+    list-style: none;
+}
+.footer li{
+    margin-top: 0.5rem;
+}
+.back-btn{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgb(211, 69, 154);
+    margin-top: 1rem;
+}
+.footer{
+    padding: 4rem;
+    font-size: 1.5rem;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.footer h4{
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+.SignIn-body, .SignUp-body{
+    background-color: rgb(238, 217, 235);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.SignIn-main, .SignUp-main{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+    size: 100%;
+    width: 70vh;
+    height: auto;
+    padding: 1rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.SignIn-main h2, .SignUp-main h2{
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+    color: rgb(169, 12, 158);
+    text-shadow: 0 0 25px rgb(196, 130, 187);
+}
+.SignIn-main h4, .SignUp-main h4{
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+    color: black;
+}
+.SignIn-main p, .SignUp-main p{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    margin: 1rem;
+    color: black;
+}
+.SignIn-main a, .SignUp-main a{
+    color: blue;
+    cursor: pointer;
+}
+.SignIn-main form, .SignUp-main form{
+    display: block;
+    width: 100%;
+    height: 50%;
+    padding: 1rem;
+    align-items: center;
+}
+
+.SignIn-main form input, .SignUp-main form input{
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 2px solid rgb(169, 12, 158);
+    border-radius: 10px;
+}
+.btn-signIn{
+    background-color: rgb(169, 12, 158);
+    color: white;
+    font-weight: 500;
+}

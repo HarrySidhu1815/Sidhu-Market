@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./index.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+button{
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background 0.4s;
+}
+.btn1:hover,.btn2:hover{
+    background-color: rgba(188, 51, 181, 0.616);
+}
+.btn1{
+    padding: 2rem 10rem;
+    background-color: hsl(307, 54%, 46%);
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
+h1{
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    color: rgb(185, 13, 116);
+    font-weight: 900;
+}
+.btn2{
+    padding: 2rem 11rem;
+    background-color: hsl(307, 54%, 46%);
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
+}
